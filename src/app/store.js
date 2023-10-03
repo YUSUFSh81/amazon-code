@@ -12,7 +12,7 @@ import basketReducer from "../slices/basketSlice";
 // middleware
 // const middleware = [thunk];
 
-// creating store
+// creating the global store
 export const store = configureStore({
   reducer: {
     basket: basketReducer
